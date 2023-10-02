@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Ejemplo Bitacora Web :: Galería con javascript-jquery-bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+  <style>
+		header{text-align:center;}
+		article img{max-height:180px;}
+		article p,footer p{text-align:center;}
+  </style>
+</head>
+<body>
+	<header>
+		<a href="http://bitacoraweb.info" target="_blank"><img src="http://bitacoraweb.info/wp-content/uploads/2015/10/bitacora.png" width="400" border="0"></a>
+		<h1>Ejemplo de Galería con javascript-jquery-bootstrap</h1>
+	</header>
+	<div class="container galeria">
+		<articles class="row">
+			<article class="col-md-3">
+				<a href="images/img1.jpg" data-lightbox="example-set" data-title="Regala">
+				<img src="images/img1.jpg" alt="Regala" class="img-thumbnail"></a>
+				<p>Regala</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img2.jpg" data-lightbox="example-set" data-title="Descansa">
+				<img src="images/img2.jpg" alt="Descansa" class="img-thumbnail"></a>
+				<p>Descansa</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img3.jpg" data-lightbox="example-set" data-title="Empatiza">
+				<img src="images/img3.jpg" alt="Empatiza" class="img-thumbnail"></a>
+				<p>Empatiza</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img4.jpg" data-lightbox="example-set" data-title="Ház deporte">
+				<img src="images/img4.jpg" alt="Ház deporte" class="img-thumbnail"></a>
+				<p>Ház deporte</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img5.jpg" data-lightbox="example-set" data-title="Vuela">
+				<img src="images/img5.jpg" alt="Vuela" class="img-thumbnail"></a>
+				<p>Vuela</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img6.jpg" data-lightbox="example-set" data-title="Sueña">
+				<img src="images/img6.jpg" alt="Sueña" class="img-thumbnail"></a>
+				<p>Sueña</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img7.jpg" data-lightbox="example-set" data-title="Viaja">
+				<img src="images/img7.jpg" alt="Viaja" class="img-thumbnail"></a>
+				<p>Viaja</p>
+			</article>
+			<article class="col-md-3">
+				<a href="images/img8.jpg" data-lightbox="example-set" data-title="Relájate">
+				<img src="images/img8.jpg" alt="Relájate" class="img-thumbnail"></a>
+				<p>Relájate</p>
+			</article>
+		</articles>
+	</div>
+	<footer>
+		<p>Ver todo el artículo: <a href="http://bitacoraweb.info/crear-una-galeria-imagenes-jquery-javascript-bootstrap/">http://bitacoraweb.info/crear-una-galeria-imagenes-jquery-javascript-bootstrap/</a></p>
+	</footer>
+
+  <script src="lightbox/js/lightbox.min.js"></script>
+  <script>
+	  lightbox.option({
+		'albumLabel': "Imagen %1 de %2"
+	  })
+  </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Hidrocer S.A.</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/3-col-portfolio.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+<link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+
+<header>
+  
+      <div class="flex-container" > <img src="img/hidrocer-logo-2.png" alt="Hidrocer"> </div>
+      
+</header>
+
+
+<!-- Services Section -->
+
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h3 class="section-subheading text-muted">Por favor llene el siguiente formulario.</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <form action="enviar-2.php" class="form-contact" method="POST">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="inputNombre" class="sr-only">Nombre y Apellido</label>
+                  <input type="nombre" name="nombre" id="inputNombre" class="form-control" placeholder="Nombre y Apellido" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputEmpresa" class="sr-only">Empresa</label>
+                  <input type="empresa" name="empresa" id="inputEmpresa" class="form-control" placeholder="Empresa" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputCargo" class="sr-only">Cargo</label>
+                  <input type="cargo" name="cargo" id="inputCargo" class="form-control" placeholder="Cargo" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputProvincia" class="sr-only">Provincia</label>
+                  <input type="provincia" name="provincia" id="inputProvincia" class="form-control" placeholder="Provincia" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="inputLocalidad" class="sr-only">Localidad</label>
+                  <input type="localidad" name="localidad" id="inputLocalidad" class="form-control" placeholder="Localidad" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="inputEmail" class="sr-only">E-Mail</label>
+                  <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <label for="inputTelefono" class="sr-only">Tel&eacute;fono</label>
+                  <input type="telefono" name="telefono" id="inputTelefono" class="form-control" placeholder="Tel&eacute;fono" required>
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option value="">Motivo</option>
+                    <option value="1">Consulta</option>
+                    <option value="2">Certificación</option>
+                    <option value="3">Comentario</option>
+                    <option value="1">Sugerencia</option>
+                    <option value="2">Queja</option>
+                    <option value="3">Reclamo</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="pull-right">
+              <p class="help-block">
+                HIDROCER S.A.<br>
+                Av. Leandro N. Alem N° 668 10° B <br>
+                CABA- CP1001 <br>
+                TEL: (011) 4555-1801 <br>
+                INT 34 de 8 a 17 hrs <br>
+                Cel 1164568173 </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="g-recaptcha" data-sitekey="6LcJ1lMfAAAAAD8BG-9Lq1oPG8Am-zDewa28B6sY" data-theme="Light"></div>
+        </div>
+        <div class="col-lg-8 text-center">
+          <div id="success"></div>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+        </div>
+        <div class="col-lg-4 text-center"> </div>
+      </form>
+      <br>
+      <br>
+      <p class="help-block text-danger"></p>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</section>
+<hr>
+<!-- Footer -->
+
+
+<!-- /.container --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>

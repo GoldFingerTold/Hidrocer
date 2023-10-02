@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.error-404 h2{
+	text-align:center;
+	font-size: 50px;
+    font-weight: bold;
+	color:#fd1b24;
+	}
+	
+.error-404 p{
+	text-align:center;
+	color:#777777;
+	font-size: 30px;
+	font-style:italic;
+	}	
+	
+.error-404 p span{
+	color:#fd1b24;
+	font-weight:bold;
+	}
+	
+.consulta h2{
+	text-align:center;
+	font-size: 30px;
+    font-weight: bold;
+	color:#737373;
+	}
+	
+.consulta h2 small{
+	text-align:center;
+	color:#777777;
+	font-style:italic;
+	}
+	
+.consulta p span{
+	color:#fd1b24;
+	font-weight:bold;
+	font-style:italic;
+	}
+

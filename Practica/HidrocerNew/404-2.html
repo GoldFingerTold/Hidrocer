@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Web y Eventos</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="css/3-col-portfolio.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+<link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#"><img src="img/wye_logo.png" alt="Web y Eventos"></a> </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+      <div class="pull">
+        <ul class="nav navbar-nav">
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Salones <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="divider"></li>
+              <li><a href="#">Salones de Fiestas</a></li>
+              <li><a href="#">Hoteles</a></li>
+              <li><a href="#">Quintas para Eventos</a></li>
+              <li><a href="#">Estancias</a></li>
+              <li><a href="#">Islas</a></li>
+              <li><a href="#">Barcos</a></li>
+              <li><a href="#">Restaurantes</a></li>
+              <li><a href="#">Confiterías</a></li>
+              <li><a href="#">Boliches</a></li>
+              <li><a href="#">Bares</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Todo para el civil<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">CGP</a></li>
+                  <li><a href="#">Registro civiles</a></li>
+                  <li><a href="#">Iglesias</a></li>
+                  <li><a href="#">Templos</a></li>
+                  <li><a href="#">Mezquitas</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Servicios<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Catering<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Catering para Fiestas</a></li>
+                  <li><a href="#">Barras de Tragos - Café</a></li>
+                  <li><a href="#">Pastelería - Mesa Dulce</a></li>
+                  <li><a href="#">Vajilla y Mantelería</a></li>
+                  <li><a href="#">Vinotecas</a></li>
+                  <li><a href="#">Alquiler - Mesas y Sillas</a></li>
+                  <li><a href="#">Descartables</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Servicios para Eventos<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Organización de Eventos</a></li>
+                  <li><a href="#">Disc Jockey</a></li>
+                  <li><a href="#">Foto & Video</a></li>
+                  <li><a href="#">Tarjetas e Invitaciones</a></li>
+                  <li><a href="#">Cotillón</a></li>
+                  <li><a href="#">Souvenirs</a></li>
+                  <li><a href="#">Casa de Regalos</a></li>
+                  <li><a href="#">Fuegos Artificiales</a></li>
+                  <li><a href="#">Marketing</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Vestidos y más...<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Vestidos de Novia</a></li>
+                  <li><a href="#">Ropa de Etiqueta</a></li>
+                  <li><a href="#">Maquillaje</a></li>
+                  <li><a href="#">Salón de belleza</a></li>
+                  <li><a href="#">Accesorios</a></li>
+                  <li><a href="#">Ceremonias</a></li>
+                  <li><a href="#">Velas para fiestas</a></li>
+                  <li><a href="#">Flores y ramos</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Ambientación<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Ambientación & Decoración</a></li>
+                  <li><a href="#">Alquiler de living</a></li>
+                  <li><a href="#">Carpas</a></li>
+                  <li><a href="#">Equipamiento</a></li>
+                  <li><a href="#">Grupos Electrógenos</a></li>
+                  <li><a href="#">otros</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li><a href="#">Viajes y Destinos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Infantiles<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Salones Infantiles</a></li>
+              <li><a href="#">Animaciones Infantiles</a></li>
+              <li><a href="#">Ambientación Infantil</a></li>
+              <li><a href="#">Plazas Blandas</a></li>
+              <li><a href="#">Alquiler de Inflables</a></li>
+              <li><a href="#">Alquiler de Juegos</a></li>
+              <li><a href="#">Cotillón - Disfraces</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shows<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li class="dropdown-submenu"> <a class="test" href="#">Bandas<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Bandas en Vivo</a></li>
+                  <li><a href="#">Grupos musicales</a></li>
+                  <li><a href="#">Covers</a></li>
+                  <li><a href="#">Tributos</a></li>
+                  <li><a href="#">Shows Coreográficos</a></li>
+                  <li><a href="#">Shows para Recepciones</a></li>
+                  <li><a href="#">Bandas de Jazz</a></li>
+                  <li><a href="#">Mariachis</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li><a href="#">Batucadas y Murgas</a></li>
+              <li><a href="#">Magos e Ilusionistas</a></li>
+              <li><a href="#">Cantantes</a></li>
+              <li><a href="#">Cómicos</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Espectáculos<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Tango</a></li>
+                  <li><a href="#">Odaliscas</a></li>
+                  <li><a href="#">Stand Up</a></li>
+                  <li><a href="#">Robot Luminoso</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li class="dropdown-submenu"> <a class="test" href="#">Animación<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Animadores</a></li>
+                  <li><a href="#">Locutores</a></li>
+                </ul>
+              </li>
+              <li class="divider"></li>
+              <li><a href="#">Productora Artística</a></li>
+              <li><a href="#">Varios</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="pull-left">
+              <form class="navbar-form navbar-left" role="search" >
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Buscar por nombre">
+                </div>
+                <!--<button type="submit" class="btn btn-default">Enviar</button>-->
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
+
+<!-- Page Content -->
+<div class="container"> 
+  
+  <!-- Page Header -->
+  <div class="row">
+    <div class="col-lg-7">
+      <h1 class="page-header">Web y Eventos <small>Salones de Fiestas y Servicios para Eventos</small> </h1>
+    </div>
+    <div class="col-lg-1">
+      <div>
+        <button type="button" class="btn btn-default" title="Agregá a Favoritos"> <span class="glyphicon glyphicon-heart"><span class="corazon"></span></span></button>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="pull-right">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default" >Anunciante</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ol class="breadcrumb">
+            <li><a href="#">Organizá tu Fiesta</a></li>
+            <li><a href="#">Ingresá</a></li>
+            <li><a href="#">Registrate</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /.row --> 
+<br>
+<!-- Projects Row -->
+
+<div class="formito">
+  <div class="col-lg-4"></div>
+  <div class="row">
+    <div class="col-lg-6">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Encontrá lo que Buscás!">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="¿Donde Buscas?">
+        </div>
+        <button type="submit" class="btn btn-ttc">Buscar</button>
+      </form>
+    </div>
+  </div>
+  <div class="col-lg-2"></div>
+</div>
+
+<!-- /.row -->
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="error-404">
+        <h2>¡Ups!<br> <img src="404/llanto-3.png"><br><p>No hemos encontrado lo que buscás! </p><p>Realizá una nueva búsqueda</p><p><span>click<span></p>  </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+  <div class="pie">
+    <div class="row">
+      <div class="col-md-1 col-md-offset-2 text-left footer-title">
+        <p><strong>Menú</strong></p>
+        <br>
+        <ul>
+          <li><a href="#">Wye</a></li>
+          <li><a href="#">Salones</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Infantiles</a></li>
+          <li><a href="#">Shows</a></li>
+          <li><a href="#">Mapa del sitio</a></li>
+        </ul>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-1 text-left footer-title">
+        <p><strong>Usuario</strong></p>
+        <br>
+        <ul>
+          <li><a href="#">Organizá tu Fiesta</a></li>
+          <li><a href="#">Registrate</a></li>
+          <li><a href="#">Anunciante</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 ">
+        <div class="pull-right"><img class="img-responsive" src="img/wye-footer.png" title="WyE" alt="WyE"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <p class="text-justify">Salones de Fiestas - Hoteles - Quintas - Estancias - Islas - Barcos - Restaurantes - Confiterías - Boliches - Bares - Salones de Fiestas Infantiles - Animaciones Fiestas Infantiles - Catering - Barras de Tragos - Pastelería y Mesa Dulce - Organización de Eventos - Disc Jockey e Iluminación - Foto y Video - Ambientación y Decoración - Tarjetas - Cotillón - Vestidos de Novias - Ropa de Etiqueta - Maquillaje - Salones de Belleza - Flores y Ramos - Souvenirs - Fuegos Artificiales - Velas y Fanales - Vajilla y Mantelería - Carpas y Toldos - Alquiler de Autos - Alquiler de Livings - Casas de Regalos - Ceremonias - Animación para Adultos - Bandas y Tributos - Cómicos - Shows Coreográficos - Batucadas y Murgas - Maricahis - Locutores y Conductores - Bandas en Vivo - Show para Recepciones - Tango - Odaliscas - Jazz - Caricaturistas - Todo para el Civil - CGP - Registro Civil - Iglesias - Templos - Mezquitas</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1" style="font-style: italic">
+        <p class="text-justify">WEB Y EVENTOS es un sitio de servicios de información publicitaria. No tiene relación alguna con las operaciones comerciales que se realicen directamente entre usuarios y anunciantes. La fidelidad de los datos presentados en cada subweb de los anunciantes es responsabilidad exclusiva de los mismos.</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-11 text-right">
+        <p>© 2017 - CopyRight / Todos los derechos reservados / Legales / Version @version</p>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <br>
+</footer>
+
+<!-- /.container --> 
+
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
+</body>
+</html>

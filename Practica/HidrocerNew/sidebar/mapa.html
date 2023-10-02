@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<div class="col-md-4">
+  <h2>Puro Pilar Eventos</h2>
+  <h4 ng-show="$ctrl.place.subtitle">Tres salones para Fiestas</h4>
+  <!----><span ng-repeat="r in $ctrl.place.relations"> Salones de fiesta</span><!----><span ng-repeat="r in $ctrl.place.relations">, Salones de fiesta</span><!----><br>
+  <!----><span ng-if="$ctrl.place.phone || $ctrl.place.cellphone">0230-442-8643 / 011-4078-5784 / 011-4917-7300 </span><!----><!---->
+  <p ng-repeat="b in $ctrl.place.branches">Colectora Panamericana Ramal Pilar Km 53 - Pilar - Buenos Aires - Argentina</p>
+  <!----><br>
+  <button class="btn btn-danger" ng-click="$ctrl.showFormFunction()">Consultar</button>
+  <br>
+  <br>
+  <!---->
+  <div ng-if="$ctrl.place.typeOfPlace == 0">
+    <map center="[-34.448232, -58.900917]" style="display: block; height: 300px;">
+      <marker position="[-34.448232, -58.900917]" title="Hello Marker" draggable="false" visible="true"></marker>
+      <div style="width: 100%; height: 100%; position: relative; overflow: hidden;">
+        <div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
+          <div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;">
+            <div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;">
+              <div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;">
+                  <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                    <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                      <div style="width: 256px; height: 256px; position: absolute; left: -6px; top: 7px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 250px; top: 7px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: -6px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: -6px; top: 263px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 250px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 250px; top: 263px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 506px; top: 7px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 506px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; position: absolute; left: 506px; top: 263px;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;">
+                  <div style="position: absolute; left: 0px; top: 0px; z-index: -1;">
+                    <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -6px; top: 7px;">
+                        <canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas>
+                      </div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 250px; top: 7px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -6px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -6px; top: 263px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 250px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 250px; top: 263px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 506px; top: 7px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 506px; top: -249px;"></div>
+                      <div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 506px; top: 263px;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div style="position: absolute; z-index: 0; left: 0px; top: 0px;">
+                  <div style="overflow: hidden;"></div>
+                </div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 0;">
+                  <div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;">
+                    <div style="position: absolute; left: -6px; top: 7px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11022!3i19727!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=78264" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 250px; top: 7px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11023!3i19727!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=38543" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 250px; top: -249px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11023!3i19726!4i256!2m3!1e0!2sm!3i380071136!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=68888" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: -6px; top: 263px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11022!3i19728!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=114285" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: -6px; top: -249px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11022!3i19726!4i256!2m3!1e0!2sm!3i380071136!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=108609" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 250px; top: 263px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11023!3i19728!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=74564" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 506px; top: 7px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11024!3i19727!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=129893" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 506px; top: -249px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11024!3i19726!4i256!2m3!1e0!2sm!3i380071244!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=118436" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                    <div style="position: absolute; left: 506px; top: 263px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i15!2i11024!3i19728!4i256!2m3!1e0!2sm!3i380071436!3m9!2ses-ES!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=34843" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                  </div>
+                </div>
+              </div>
+              <div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div>
+              <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;">
+                <div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div>
+              </div>
+              <div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);">
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div>
+                <div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div>
+              </div>
+            </div>
+            <div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=-34.448232,-58.893621&amp;z=15&amp;t=m&amp;hl=es-ES&amp;gl=US&amp;mapclient=apiv3" title="Haz clic aquí para visualizar esta zona en Google Maps" style="position: static; overflow: visible; float: none; display: inline;">
+              <div style="width: 66px; height: 26px; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+              </a></div>
+            <div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 195px; top: 60px;">
+              <div style="padding: 0px 0px 10px; font-size: 16px;">Datos de mapas</div>
+              <div style="font-size: 13px;">Datos de mapas ©2017 Google</div>
+              <div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+            </div>
+            <div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 228px; bottom: 0px; width: 151px;">
+              <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;">
+                <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                  <div style="width: 1px;"></div>
+                  <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+                </div>
+                <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Datos de mapas</a><span>Datos de mapas ©2017 Google</span></div>
+              </div>
+            </div>
+            <div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;">
+              <div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Datos de mapas ©2017 Google</div>
+            </div>
+            <div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 142px; bottom: 0px;">
+              <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                <div style="width: 1px;"></div>
+                <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+              </div>
+              <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/es-ES_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Términos de uso</a></div>
+            </div>
+            <div style="cursor: pointer; width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div>
+            <div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;">
+              <div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;">
+                <div style="width: 1px;"></div>
+                <div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div>
+              </div>
+              <div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Informar a Google acerca de errores en las imágenes o en el mapa de carreteras" href="https://www.google.com/maps/@-34.448232,-58.8936214,15z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Informar de un error de Maps</a></div>
+            </div>
+            <div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;">
+              <div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;">
+                <div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;">
+                  <div title="Acerca la imagen" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;">
+                    <div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div>
+                  </div>
+                  <div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div>
+                  <div title="Aleja la imagen" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;">
+                    <div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default; position: absolute; left: 0px; top: 0px;">
+                <div style="position: absolute; left: 1px; top: 1px;"></div>
+                <div style="position: absolute; left: 1px; top: 1px;">
+                  <div aria-label="Control del hombrecito naranja de Street View" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                  <div aria-label="El hombrecito naranja está en la parte superior del mapa." style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                  <div aria-label="Control del hombrecito naranja de Street View" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                </div>
+              </div>
+              <div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;">
+                <div title="Girar el mapa 90 grados" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+                <div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div>
+              </div>
+            </div>
+            <div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;">
+              <div class="gm-style-mtc" style="float: left;">
+                <div draggable="false" title="Muestra el callejero" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 28px; font-weight: 500;">Mapa</div>
+                <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;">
+                  <div draggable="false" title="Muestra el callejero con relieve" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+                    <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div>
+                    </span>
+                    <label style="vertical-align: middle; cursor: pointer;">Relieve</label>
+                  </div>
+                </div>
+              </div>
+              <div class="gm-style-mtc" style="float: left;">
+                <div draggable="false" title="Muestra las imágenes de satélite" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-left: 0px; min-width: 37px;">Satélite</div>
+                <div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;">
+                  <div draggable="false" title="Muestra las imágenes con los nombres de las calles" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;">
+                    <div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div>
+                    </span>
+                    <label style="vertical-align: middle; cursor: pointer;">Etiquetas</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </map>
+  </div>
+  <!----></div>
+</body>
+</html>
